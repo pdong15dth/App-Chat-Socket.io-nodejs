@@ -57,7 +57,11 @@
     </div>
     <script>
         $(function () {
-            var  = io.connect();
+
+        
+
+            var socket =  io.connect();
+
             var $messageForm = $('#messageForm');
             var $message = $('#message');
             var $chat = $('#chat');
